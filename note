@@ -1,0 +1,22 @@
+/*
+            What is an Algorithm?
+ Its a set of well-defined instructions to solve a particular problem
+            Practical Example is how to make a noodle 
+ Ingredent ---- Steps ----- Tasty noodles.
+
+            Alg to add two numbers
+ Inputs           -----  Algorithm          -----          Output
+ {two num "a" and "b"}   {Add numbers using "+    {Sum of "a" and "b"}
+                           return the value "}
+
+                           
+We evaluate the performance of an algorithm in terms of its INPUT SIZE
+#TIME COMPLEXITY:- Amount of time taken by an algorithm to run as func of input size
+#SPACE COMPLEXITY:- Amount of memory taken by an alg to run, as a func of input size.
+
+     HOW TO REPRESENT COMPLEXITY
+#BIG-O NOTATION - Worst  case complexity
+#OMEGA NOTATION - Best case
+#THETA NOTATION - Average case
+
+ */
