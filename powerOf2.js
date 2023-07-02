@@ -41,3 +41,7 @@ console.log(isPowerOfTwoBitWsie(2)); // true
 console.log(isPowerOfTwoBitWsie(5)); // false
 
 //Big -O = O(1) constant
+
+
+
+

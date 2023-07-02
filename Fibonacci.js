@@ -10,6 +10,8 @@ fib(7) = [0,1,1,2,3,5,8]
 
 */
 
+//ITERATIVE SOLUTION
+
 function fibonacci(n){
     const fib = [0,1]
     for(let i = 2; i < n; i++){
@@ -21,4 +23,20 @@ console.log(fibonacci(2));
 console.log(fibonacci(3));
 console.log(fibonacci(7));
 
-// DETERMINE THE BIG-O = ANSWER IS LINEAR TIME COMPLEXITY
+// DETERMINE THE BIG-O = ANSWER IS O(n) LINEAR TIME COMPLEXITY
+
+
+// RECURSIVE SOLUTIION
+
+function recursiveFibonacci(n){
+    if(n < 2){
+        return n
+    }
+    return recursiveFibonacci(n-1) + recursiveFibonacci(n-2)
+}
+
+console.log(recursiveFibonacci(1));
+console.log(recursiveFibonacci(3));
+console.log(recursiveFibonacci(6));
+
+// DETERMINE THE BIG-O = ANSWER IS O(n^2)

@@ -20,3 +20,28 @@ We evaluate the performance of an algorithm in terms of its INPUT SIZE
 #THETA NOTATION - Average case
 
  */
+
+
+ /*
+               RECURSION
+     RECURSION is a problem solving technique where the solution depends on solutions to smaller
+     instances of the same problem
+
+     RECURSION is when a function calls itself
+
+     WHY?
+     IT's a great technique to simplify your solution
+
+     If you find yoursekf breaking down your problem into smaller versiions of the same problem,
+     recursion is very useful
+         
+ */
+
+
+/* ##SORTING ALGORITHM
+     We will look at four different ways to sort algorithm,
+     * Bubble sort
+     * Insertion sort
+     * Quick sort
+     * Merge sort
+*/
